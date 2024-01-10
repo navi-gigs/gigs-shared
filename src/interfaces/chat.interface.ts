@@ -1,7 +1,7 @@
-import mongoose, { ObjectId } from 'mongoose';
-import { IOffer } from './order.interface';
-import { ISellerGig } from './gig.interface';
-import { ISellerDocument } from './seller.interface';
+import mongoose, { ObjectId } from "mongoose";
+import { IOffer } from "./order.interface";
+import { ISellerGig } from "./gig.interface";
+import { ISellerDocument } from "./seller.interface";
 
 export interface IConversationDocument extends Document {
   _id: mongoose.Types.ObjectId | string;
@@ -47,7 +47,7 @@ export interface IMessageDetails {
 
 export interface IChatBoxProps {
   seller: IChatSellerProps;
-  buyer: IChatBuyerProps
+  buyer: IChatBuyerProps;
   gigId: string;
   onClose: () => void;
 }

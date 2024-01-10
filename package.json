@@ -17,11 +17,11 @@
       "trailingComma": "es5"
     },
     "keywords": [],
-    "name": "navi-gigs/gigs-shared",
+    "name": "@navi-gigs/gigs-shared",
     "author": "Navi",
     "repository": {
       "type": "git",
-      "url": ""
+      "url": "git+https://github.com/navi-gigs/gigs-shared.git"
     },
     "publishConfig": {
       "registry": "https://npm.pkg.github.com"

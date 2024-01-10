@@ -53,5 +53,8 @@
   "dependencies": {
     "@elastic/elasticsearch": "^8.11.0",
     "mongoose": "^8.0.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

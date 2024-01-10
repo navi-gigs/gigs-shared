@@ -18,7 +18,7 @@
   "author": "Navi",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navi-gigs/gigs-shared.git"
+    "url": "https://github.com/navi-gigs/gigs-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

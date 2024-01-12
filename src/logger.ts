@@ -39,13 +39,14 @@ export const winstonLogger = (
       },
     },
   };
-  const esTransport: ElasticsearchTransport = new ElasticsearchTransport(
-    options.elasticsearch
-  );
+
   const logger: Logger = winston.createLogger({
     exitOnError: false,
     defaultMeta: { service: name },
-    transports: [new winston.transports.Console(options.console), esTransport],
+    transports: [
+      new winston.transports.Console(options.console),
+      new ElasticsearchTransport(options.elasticsearch),
+    ],
   });
   return logger;
 };
